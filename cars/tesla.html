@@ -5,6 +5,43 @@
 	<title>Tesla</title>
 	<link href="/styles/main.css" ref="stylesheet" type="text/css">
 	<script src="/scripts/main.js"></script>
+	<style type="text/css">
+		body {
+			padding:20px;
+		}
+
+		h1 {
+			font-family:Arial;
+		}
+		
+		header {
+			display:block;
+			margin-top:20px;
+			margin-bottom:20px;
+
+		}
+	
+		#bread {
+			display:block;
+			list-style-type:none; 	
+		}
+
+		#bread li {
+
+			float:left;
+			display:block;
+			margin-left:5px;
+			list-style-type:none;
+		}
+
+		#bread li:not(:last-child):after {
+			content:"  > ";
+		}
+
+		div {
+			margin-top:50px;
+		}
+	</style>
 </head>
 <body>
 	<h1>Tesla</h1>
