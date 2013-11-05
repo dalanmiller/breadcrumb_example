@@ -1,4 +1,4 @@
-#Breacrumbs
+#Breadcrumbs
 
 A small example of breadcrumbs using just the current path.
 
