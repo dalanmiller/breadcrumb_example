@@ -1,3 +1,15 @@
+body {
+	
+	padding:20px;
+
+}
+
+h1 {
+
+	font-family:Arial;
+
+}
+
 #bread {
 	
 	list-style-type:none; 
